@@ -22,6 +22,7 @@
 		722B975624BF2A8A00311E5D /* CellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722B975524BF2A8A00311E5D /* CellManager.swift */; };
 		722B975924C0729B00311E5D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722B975824C0729B00311E5D /* Date+Extension.swift */; };
 		722B975B24C0814400311E5D /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722B975A24C0814400311E5D /* CountryViewController.swift */; };
+		722B975D24C1C2EB00311E5D /* CaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722B975C24C1C2EB00311E5D /* CaseInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		722B975524BF2A8A00311E5D /* CellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellManager.swift; sourceTree = "<group>"; };
 		722B975824C0729B00311E5D /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		722B975A24C0814400311E5D /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		722B975C24C1C2EB00311E5D /* CaseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				722B974724BF0FCC00311E5D /* CovidSummary.swift */,
 				722B974924BF101B00311E5D /* GlobalInfo.swift */,
 				722B974B24BF10FA00311E5D /* Country.swift */,
+				722B975C24C1C2EB00311E5D /* CaseInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			files = (
 				722B975224BF22A400311E5D /* CountriesTableViewController.swift in Sources */,
 				722B975924C0729B00311E5D /* Date+Extension.swift in Sources */,
+				722B975D24C1C2EB00311E5D /* CaseInfo.swift in Sources */,
 				722B975024BF137400311E5D /* MainViewController.swift in Sources */,
 				722B974824BF0FCC00311E5D /* CovidSummary.swift in Sources */,
 				722B975424BF280600311E5D /* CountryCell.swift in Sources */,
