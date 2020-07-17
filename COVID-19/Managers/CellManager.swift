@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class CellManager{
     func configure(_ cell: CountryCell, with country: Country){
@@ -17,5 +18,10 @@ class CellManager{
         
         cell.newDeathsLabel.text = "(+\(country.newDeaths))"
         cell.totalDeathsLabel.text = "\(country.totalDeaths)"
+    }
+    func congifure(_ cell: UITableViewCell, with caseInfo: CaseInfo){
+        let date = caseInfo.date.dropLast(10)
+        cell.textLabel?.text = String(date)
+        cell.detailTextLabel?.text = "\(caseInfo.cases)"
     }
 }
