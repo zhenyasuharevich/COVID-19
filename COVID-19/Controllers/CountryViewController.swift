@@ -25,7 +25,11 @@ class CountryViewController: UIViewController {
     
     // MARK: - Propetries
     var country: Country!
-    var cases: [CaseInfo]?
+    var cases: [CaseInfo]? {
+        didSet{
+            cases?.reverse()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
